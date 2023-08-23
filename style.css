@@ -1,0 +1,213 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin-right: 200px;
+    padding-right: 300px;
+}
+
+span {
+    color:cadetblue
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: cadetblue;
+    transition: .4s
+}
+
+.container {
+    width:100%
+}
+
+.container .image img {
+    width:300px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 50px 10px 10px 50px;
+    float: left;
+    padding-left: 50px;
+}
+
+.greet {
+    float: left;
+    width: 60%;
+    margin: 80px 80px 35px 35px;
+    padding-bottom: 70px;
+    text-align: center;
+    align-content: center;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 10px 10px;
+    color: white;
+}
+
+h3 {
+    color:cadetblue;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.greet h2 {
+    color:cadetblue;
+    margin-top: 5px;
+    margin-bottom: 50px
+}
+
+.button {
+    background-color: black;
+    color: cadetblue;
+    text-decoration: none;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about-me {
+    background-color: rgb(84, 88, 109);
+    margin-top: 400px;
+    padding: 50px 150px 50px 150px;
+    width: 80%;
+    max-width: 95%;
+    text-align: center;
+}
+
+.about-me h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.about-me h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px
+}
+
+.about-me p {
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 28px
+}
+
+.projects {
+    
+    width: 100%;
+    padding: 30px 0px;
+
+}
+
+.title h2 {
+    color:white;
+    font-size: 40px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px
+}
+
+.box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: cadetblue;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.project-desc p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    margin-top: 30px
+}
+
+.contact-me {
+    width: 80%;
+    padding: 100ox;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    
+}
+
+.contact-me img {
+    height: 300px;
+    width: 300px;
+    padding-left: 250px;
+   
+}
+
+.contact-text {
+    padding-left: 150px;
+    width: 550px
+}
+
+.contact-section{
+    width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+.contact-text h2 {
+    font-size: 40px;
+    color:cadetblue
+}
